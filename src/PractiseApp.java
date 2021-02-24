@@ -1,7 +1,3 @@
-// Decompiled by Jad v1.5.8g. Copyright 2001 Pavel Kouznetsov.
-// Jad home page: http://www.kpdus.com/jad.html
-// Decompiler options: packimports(3) 
-// Source File Name:   PractiseApp.java
 
 import java.io.PrintStream;
 import java.util.Scanner;
@@ -16,6 +12,7 @@ public class PractiseApp
     public static void main(String args[])
     {
         Scanner sc = new Scanner(System.in);
+        System.out.println("Input from user");
         System.out.println("Enter first number");
         int a = Integer.parseInt(sc.next());
         System.out.println("Enter second number");
