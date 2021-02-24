@@ -11,7 +11,8 @@ public class AreaOfTriange {
                  area = (b * h) / 2;
                  System.out.println("Area of Triangle is: " + area);
              }
-            public void main(String args[])
+
+            public static void main(String args[])
             {
                 AreaOfTriange areaOfTriange=new AreaOfTriange();
                 areaOfTriange.calculation();
